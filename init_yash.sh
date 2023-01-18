@@ -1,7 +1,3 @@
-if test ${SHLVL} != '2'; then
-    exit 1
-fi
-
 unset COLUMNS
 
 export OLDPATH="${PATH}"

@@ -1,0 +1,2 @@
+git config user.name 'Inoue Hiroo'
+git config user.email 'ultrahiroo2000@yahoo.co.jp'
