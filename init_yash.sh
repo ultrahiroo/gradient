@@ -1,4 +1,4 @@
-if test ${SHLVL} != '1'; then
+if test ${SHLVL} != '2'; then
     exit 1
 fi
 
