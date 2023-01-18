@@ -1,6 +1,6 @@
 .yash_history
+.env/
 .usr/
-.venv/
 setting/micro/buffers/
 secret*
 tmp*
