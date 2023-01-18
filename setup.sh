@@ -1,6 +1,2 @@
 #!/bin/sh
-# sh init_apt.sh
-# echo /notebooks/.usr/lib > /etc/ld.so.conf.d/notebooks.conf
-# ldconfig
-# yash
-env
+jupyter notebook --allow-root --ip=0.0.0.0 --no-browser --NotebookApp.trust_xheaders=True --NotebookApp.disable_check_xsrf=False --NotebookApp.allow_remote_access=True --NotebookApp.allow_origin='*'
