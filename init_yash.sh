@@ -26,3 +26,5 @@ export COLORTERM='truecolor'
 export XDG_CONFIG_HOME='/notebooks/setting'
 
 mkdir -p /tmp/model
+
+export HISTFILE='/notebooks/.yash_history'

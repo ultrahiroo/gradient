@@ -1,6 +1,5 @@
 {
     "Alt-/": "lua:comment.comment",
     "CtrlUnderscore": "lua:comment.comment",
-    "Alt-i": "Paste",
-    //"Ctrl-c": ""
+    "Alt-i": "Paste"
 }
