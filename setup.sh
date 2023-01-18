@@ -1,5 +1,5 @@
 #!/bin/bash
-DETECTED_NUMBER_OF_IPUS=$(python .gradient/available_ipus.py)
+DETECTED_NUMBER_OF_IPUS=$(python3 graphcore_ipu_number.py)
 
 if [[ "$1" == "test" ]]; then
     IPU_ARG="${DETECTED_NUMBER_OF_IPUS}"

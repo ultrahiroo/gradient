@@ -1,2 +1,2 @@
 pip install virtualenv
-virtualenv .env/
+virtualenv --python python3.8 .env/
