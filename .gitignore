@@ -2,5 +2,6 @@
 .env/
 .usr/
 setting/micro/buffers/
+trade/
 secret*
 tmp*
