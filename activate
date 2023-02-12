@@ -1,4 +1,3 @@
-# . ~/freqtrade/.env/bin/activate
-# ulimit -s unlimited
+. ./.env/bin/activate || . ../.env/bin/activate
+ulimit -s unlimited
 # export PYTHONPATH="/usr/lib/python3/dist-packages:${PYTHONPATH}"
-
