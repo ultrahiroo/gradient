@@ -1,5 +1,6 @@
 #!/bin/bash
 nohup git -C /notebooks/ pull
+nohup sh /notebooks/init_apt.sh
 
 export DATASET_DIR="/tmp/dataset_cache"
 export CHECKPOINT_DIR="/tmp/checkpoints"
