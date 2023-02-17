@@ -1,2 +1,2 @@
 apt update
-apt upgrade -y htop neovim time yash
+apt upgrade -y neovim time yash
