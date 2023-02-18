@@ -1,3 +1,5 @@
+. --autoload --no-alias /usr/share/yash/initialization/common
+
 unset COLUMNS
 
 export OLDPATH="${PATH}"
@@ -28,3 +30,5 @@ export XDG_CONFIG_HOME='/notebooks/setting'
 mkdir -p /tmp/model
 
 export HISTFILE='/notebooks/.yash_history'
+
+ulimit -s unlimited
