@@ -1,5 +1,4 @@
 #!/bin/bash
-# https://github.com/gradient-ai/Graphcore-Tensorflow2
 
 nohup git -C /notebooks/ pull
 nohup sh /notebooks/init_apt.sh
