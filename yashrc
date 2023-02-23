@@ -17,6 +17,8 @@ VENV_ACTIVATE='/notebooks/.env/bin/activate'
 
 if test -e ${VENV_ACTIVATE}; then
     . ${VENV_ACTIVATE}
+else
+	echo "venv is not activated: ${VENV_ACTIVATE}"
 fi
 
 export OLDPYTHONPATH="${PYTHONPATH}"
