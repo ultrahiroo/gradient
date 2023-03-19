@@ -1,6 +1,7 @@
 .yash_history
 .env/
 .usr/
+setting/jupyter/lab/workspaces/
 setting/micro/buffers/
 trade/
 secret*
