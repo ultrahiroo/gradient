@@ -1,7 +1,7 @@
 #!/bin/bash
 
 nohup git -C /notebooks/ pull
-nohup sh /notebooks/init_apt.sh
+# nohup sh /notebooks/init_apt.sh
 nohup sh /notebooks/init_ld.sh
 nohup /notebooks/init_jupyter.sh
 
