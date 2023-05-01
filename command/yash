@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/bin/yash --profile='/notebooks/setting/yash/yashrc' --rcfile='/notebooks/setting/yash/yashrc' ${@}
