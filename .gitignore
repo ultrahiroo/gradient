@@ -1,8 +1,7 @@
-.yash_history
-.env/
-.usr/
 setting/jupyter/lab/workspaces/
 setting/micro/buffers/
 trade/
+usr/
 secret*
+setting/yash/yash_history
 tmp*
