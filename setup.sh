@@ -4,10 +4,10 @@ nohup git -C /notebooks/ pull
 nohup /notebooks/command/setup_apt
 nohup /notebooks/command/setup_jupyter
 
-nohup git -C /notebooks/trade/ pull
+nohup git -C /notebooks/trading/ pull
 
-if test -e /notebooks/trade/; then
-    cd /notebooks/trade/
+if test -e /notebooks/trading/; then
+    cd /notebooks/trading/
     nohup ./command/setup_ld
     cd -
 fi

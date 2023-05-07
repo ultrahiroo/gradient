@@ -13,7 +13,7 @@ alias e="${EDITOR}"
 alias edit="${EDITOR}"
 alias py='python'
 
-VIRTUALENV_DIRECTORY='/notebooks/trade/env'
+VIRTUALENV_DIRECTORY='/notebooks/trading/env'
 VIRTUALENV_ACTIVATE="${VIRTUALENV_DIRECTORY}/bin/activate"
 
 if test -e ${VIRTUALENV_ACTIVATE}; then
