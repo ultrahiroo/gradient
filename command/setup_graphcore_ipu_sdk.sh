@@ -1,0 +1,2 @@
+#!/bin/sh
+curl --location --request GET 'https://downloads.graphcore.ai/direct?package=poplar-poplar_sdk_debian_10_3.1.0_58b501c780-3.1.0&file=poplar_sdk-debian_10-3.1.0-58b501c780.tar.gz' --output 'poplar_sdk-debian_10-3.1.0-58b501c780.tar.gz'
