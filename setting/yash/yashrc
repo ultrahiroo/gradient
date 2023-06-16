@@ -12,6 +12,7 @@ export TF_POPLAR_FLAGS="--executable_cache_path=/tmp/poplar_exec --max_compilati
 alias e="${EDITOR}"
 alias edit="${EDITOR}"
 alias py='python'
+alias pytest='pytest --verbose --capture=tee-sys'
 
 VIRTUALENV_DIRECTORY='/notebooks/trading/env'
 VIRTUALENV_ACTIVATE="${VIRTUALENV_DIRECTORY}/bin/activate"
