@@ -1,0 +1,4 @@
+#!/bin/sh
+apt update -y
+apt-mark hold python*
+apt upgrade -y
