@@ -1,4 +1,5 @@
 #!/bin/bash
+nohup /notebooks/command/setup_git_safe_directory
 nohup git -C /notebooks/ pull
 
 nohup /notebooks/command/setup_apt
