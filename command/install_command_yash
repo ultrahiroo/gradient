@@ -1,0 +1,2 @@
+#!/bin/sh
+ln -sfvn /notebooks/command/yash /usr/local/bin/yash

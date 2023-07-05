@@ -4,6 +4,7 @@ nohup git -C /notebooks/ pull
 
 nohup /notebooks/command/setup_apt
 nohup /notebooks/command/setup_jupyter
+nohup /notebooks/command/install_command_yash
 
 nohup git -C /notebooks/trading/ pull
 
