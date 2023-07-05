@@ -3,5 +3,6 @@ setting/micro/buffers/
 trading/
 usr/
 secret*
+setting/btop/btop.log
 setting/yash/yash_history
 tmp*
