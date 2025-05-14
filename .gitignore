@@ -4,4 +4,5 @@ trading/
 usr/
 setting/btop/btop.log
 setting/yash/yash_history
-tmp*
+temp*
+secret*
